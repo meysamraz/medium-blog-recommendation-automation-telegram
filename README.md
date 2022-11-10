@@ -7,4 +7,4 @@ Reading blogs and articles has become a daily habit for me. Medium is an online 
 
 # Get recommended blogs 
 I found that Medium fetches the suggested blogs from a QL graph api, which I used for this project.
-<p><img src="src/api.png" alt=""></p>
+<p><img src="src/api.png" alt=""  width ="600"></p>
