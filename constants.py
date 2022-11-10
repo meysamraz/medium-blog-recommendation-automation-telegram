@@ -1,0 +1,3 @@
+API_KEY = 'API_KEY'
+
+CHAT_ID = "CHAT_ID"
