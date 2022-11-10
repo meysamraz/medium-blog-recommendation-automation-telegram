@@ -56,6 +56,7 @@ date_show = f"Blogs -  Date : {date}"
 response = requests.request("POST", url, headers=headers, data=payload)
 data = response.json()[0]['data']['webRecommendedFeed']['items']
 
+# send date
 requests.get(f"https://api.telegram.org/bot{API_KEY}/sendMessage?chat_id={CHAT_ID}&text={date_show}")
 
 # list of topics that im interested
